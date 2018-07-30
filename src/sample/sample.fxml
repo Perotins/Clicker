@@ -1,0 +1,9 @@
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.text.Text?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <Button text="Click me!" prefHeight="200" prefWidth="200" fx:id="button" GridPane.columnIndex="0" GridPane.rowIndex="0" onAction="#onButtonClick"></Button>
+    <Text text="Click as fast as you can!" fx:id="text" GridPane.rowIndex="1" GridPane.columnIndex="0"></Text>
+</GridPane>
